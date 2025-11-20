@@ -29,7 +29,7 @@ else:
     st.write("Please upload an image file.")
 
 # Create model to generate embeddings for input image
-embeddings_model = vgg_face()
+embeddings_model = vgg.vgg_face()
 embeddings_model.load_weights('https://drive.google.com/file/d/14EArmcPAKIWR3RDM1zye9Fqa0NsLgM-t/view?usp=sharing')
 
 from tensorflow.keras.models import Model
