@@ -7,7 +7,7 @@ from PIL import Image
 import zipfile
 import os
 import warnings
-import VggFace
+import vggface
 # suppress display of warnings
 warnings.filterwarnings('ignore')
 from tensorflow.keras.optimizers.legacy import Adam
