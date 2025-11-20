@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 from matplotlib import pyplot as plt
 import cv2
-import PIL
+from PIL import Image
 import zipfile
 import os
 import warnings
